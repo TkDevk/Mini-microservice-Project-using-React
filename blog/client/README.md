@@ -1,8 +1,13 @@
-# React + Vite
+## Client 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The mission is create an App that has 2 main components, which are Post List, where the post will be desplayed it and Create Post, this last one it will have two child components that are Create Comment and comments list
 
-Currently, two official plugins are available:
+<img src="./App sctructure.PNG">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+In order to make a request to our Express api i will install axios module
+
+To install this module type `npm i axios`
+
+Now we can fect the Express api

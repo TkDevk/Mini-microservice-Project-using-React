@@ -1,0 +1,37 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    width: 58svw;
+    padding:2rem;
+
+}
+.title-post{
+
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: #fff;
+}
+.input-title{
+    align-items: center;
+    width: 28svw;
+    padding:.7rem;
+    border-radius: .3rem;
+    border: .2rem #fff solid;
+    outline-style: none;
+}
+.create-btn{
+    font-weight: 300;
+    width: 7svw;
+    border-radius: .3rem;
+    border: none;
+    padding:.6rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: #0d85cf;
+    box-shadow: 0 .2rem .2rem rgb(7, 77, 105);
+    &:hover{
+        transform: scale(1.06);
+        transition: all 2s ease-in-out;
+    }
+}
