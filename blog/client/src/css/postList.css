@@ -1,0 +1,19 @@
+.card-container{
+    border-radius: .2rem;
+    border: .2rem black solid;
+    background-color: #0974ae;
+    padding:.7rem;
+    width: 15svw;
+    height: 30svh;
+    &:hover{
+        border: .2rem #c5b414 solid;
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+    }
+
+}
+.title-card{
+    color:#fff;
+    font-size: 1.1rem;
+
+}

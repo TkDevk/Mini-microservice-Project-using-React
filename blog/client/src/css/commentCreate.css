@@ -1,0 +1,31 @@
+.form-comment-container {
+    padding: .3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.title-comment {
+    color: #fff;
+    padding: .2rem;
+}
+
+.input-comment {
+    padding: .5rem;
+    outline-style: none;
+    border-radius:.5rem;
+
+}
+
+.comment-btn {
+    font-weight: 300;
+    width: 7svw;
+    border-radius: .3rem;
+    border: none;
+    padding: .6rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: #0d85cf;
+    box-shadow: 0 .2rem .2rem rgb(7, 77, 105);
+
+}

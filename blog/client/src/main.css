@@ -1,2 +1,5 @@
 @import url('./css/App.css');
 @import url('./css/postCreate.css');
+@import url('./css/postList.css');
+@import url('./css/commentCreate.css');
+@import url('./css/commentList.css')

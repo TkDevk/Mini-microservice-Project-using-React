@@ -1,0 +1,10 @@
+.comment-list-container{
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.list-comment{
+    list-style: none;
+    color:#fff;
+    font-size: 500;
+}

@@ -4,7 +4,7 @@
     gap: .7rem;
     width: 58svw;
     padding:2rem;
-
+    min-height: 30svh;
 }
 .title-post{
 
