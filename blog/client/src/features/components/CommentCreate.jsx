@@ -10,7 +10,7 @@ const CommentCreate = ({postId}) =>{
     const onSubmit = async(e)=>{
        e.preventDefault();
        //Make the call post request to the server
-       await axios.post(`http://localhost:4001/posts/${postId}/comments`, {
+       await axios.post(`https://vp3o2ces1k.execute-api.us-east-1.amazonaws.com/dev/posts/${postId}/comments`, {
         content,
        });
        setContent('');

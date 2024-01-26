@@ -1,0 +1,50 @@
+.open-create-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    min-height: 100vh;
+    background-color: black;
+}
+.figure-create-container{
+    width: 8svw;
+    height: 7svh;
+    border-radius: .2rem;
+    font-size: .8rem;
+    color:#fff;
+    padding:.7rem;
+    background-color: #045ee6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.nav-bar-container{
+    height: 10svh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #084085d2;;
+    padding:.6rem;
+}
+.nav-title{
+    padding: .7rem;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #fff;
+}
+.login-icon-container{
+    
+    align-self: center;
+    position: relative;
+    width: 2rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.login-icon-picture{
+  color:#fff;
+}

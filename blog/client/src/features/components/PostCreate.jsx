@@ -13,14 +13,15 @@ const PostCreate = ()=>{
     const onSubmit = async (e)=>{
       e.preventDefault();
 
-      await axios.post('http://localhost:4000/posts',{
+      await axios.post('https://q62uaj5kmc.execute-api.us-east-1.amazonaws.com/dev/posts',{
          title,
       });
       setTitle('');
     }
 
     return(
-    <>
+    <article className="create-post-figure-container">
+        <h1 className='create-post-title'>Create Post</h1>
     <form onSubmit={onSubmit} 
     className="form-container" 
     action="">
@@ -38,7 +39,7 @@ const PostCreate = ()=>{
             Submit
         </button>
     </form>
-    </>
+    </article>
     )
 }
 

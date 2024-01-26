@@ -6,10 +6,18 @@ const express = require('express');
 const {randomBytes} = require('crypto');
 //check body data
 const bodyParser = require('body-parser');
+//to solve the mismatch issue
+const cors = require('cors');
+//import serverless-http
+const serverless = require("serverless-http");
+
 
 //2- create new app express
 const app = express();
+//Middleware
 app.use(bodyParser.json());
+//I will save data with cors
+app.use(cors());
 
 const posts ={};
 
@@ -37,10 +45,11 @@ app.post('/posts', (req,res)=>{
 
 // 4- Checks if the Express app it's listening in the right port
 
+/*
 app.listen(4000,()=>{
     console.log('Listening at post 4000');
 })
-
+*/
 // As i'm not going to store into data base, i will store(data) in memory
 
 /**
@@ -58,3 +67,6 @@ app.get('/posts',(req,res)=>{
 
 
 //Delete "test": "echo \"Error: no test specified\" && exit 1" and replace it for this : "start": "nodemon index.js"
+
+// I need to add a handler at the bottom to export  my app wrapped in the serverless function
+module.exports.handler=serverless(app);

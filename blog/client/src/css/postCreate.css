@@ -35,3 +35,13 @@
         transition: all 2s ease-in-out;
     }
 }
+.create-post-figure-container{
+    position: absolute;
+    height: 40vh;
+    width: 40vw;
+    border-radius: .3rem;
+    border: .2rem #000 solid;
+    background-color: #084085d2;
+    display: flex;
+    flex-direction: column;
+}

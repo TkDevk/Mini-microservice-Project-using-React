@@ -4,7 +4,7 @@
     background-color: #0974ae;
     padding:.7rem;
     width: 15svw;
-    height: 30svh;
+    height: 25svh;
     &:hover{
         border: .2rem #c5b414 solid;
         transition: all 1s ease-in-out;
@@ -15,5 +15,4 @@
 .title-card{
     color:#fff;
     font-size: 1.1rem;
-
 }

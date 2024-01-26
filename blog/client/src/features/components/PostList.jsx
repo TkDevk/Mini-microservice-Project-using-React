@@ -10,7 +10,7 @@ const [loading, setLoading] = useState(true);
  const [posts,setPosts] = useState({}); 
  const fetchPosts = async ()=>{
     //route/port
-    const res = await axios.get('http://localhost:4000/posts');
+    const res = await axios.get('https://q62uaj5kmc.execute-api.us-east-1.amazonaws.com/dev/posts');
     // any request from axios i get back a response data but the object is nested inside this data
     setPosts(res.data);
     setLoading(false);

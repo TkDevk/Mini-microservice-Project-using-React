@@ -21,6 +21,7 @@ body{
 .body-post-list{
     display: flex;
     flex-direction: column;
+    
 }
 .create-post-title, .post-list-title{
     color: #fff;
@@ -33,6 +34,8 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     gap:.2rem;
-    min-height: 60.5svh;
-    padding: .2rem;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+
 }
