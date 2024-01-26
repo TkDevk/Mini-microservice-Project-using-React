@@ -16,6 +16,10 @@ In the Web home page you will see a navbar in the top side (is not responsive ye
 
 Reload the page to see your post, same goes for the comments, once you submit your comment pls reload the page and you will see it.
 
+If you want to know more about the project inside of each carpet is .md document, there you can check the process and steps.
+
+# LOGBOOK
+
 `chmod 400 "bogota-devk-wo.pem"`
 
 `ssh -i "bogota-devk-wo.pem" ubuntu@ec2-54-160-168-202.compute-1.amazonaws.com`
