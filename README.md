@@ -1,8 +1,10 @@
 # Mini-microservice-Project-using-React
- <a href="http://blog-s3-tk.s3-website-us-east-1.amazonaws.com/">
+<div align="center" >
+ <a  href="http://blog-s3-tk.s3-website-us-east-1.amazonaws.com/">
         Preview Site
     </a>
-<h1>Welcome to my project</h1>
+</div> 
+<h1>Welcome</h1>
 
 It's still in process but i was finally able to full deploy it in AWS services.
 
@@ -10,7 +12,7 @@ The Client Front end part is hosted in S3, it's deploy as static app.
 
 For the post and comments microservices i use Lambda serverles and then set Api rest as triggers.
 
-<h2>How to use</h2>
+<h2>How to use it</h2>
 
 In the Web home page you will see a navbar in the top side (is not responsive yet), in the top right part there is button that you can click and it will show you a front where you can create your post.
 
