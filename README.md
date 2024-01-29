@@ -37,6 +37,8 @@ If you want to know more about the project inside of each carpet is .md document
 -e "ssh -i ~/Downloads/.ssh/bogota-devk-wo.pem" \
 . ubuntu@ec2-54-160-168-202.compute-1.amazonaws.com:~/app`
 
+
+
 Install dependencies
 `npm i`
 
