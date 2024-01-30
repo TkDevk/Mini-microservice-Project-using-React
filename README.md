@@ -1,6 +1,10 @@
-# Mini-microservice-Project-using-React
-
-<h1>Welcome to my project</h1>
+<h1 align="center"> Mini-microservice-Project-using-React</h1>
+<div align="center" >
+ <a  href="http://blog-s3-tk.s3-website-us-east-1.amazonaws.com/">
+        Preview Site
+    </a>
+</div> 
+<h1>Welcome</h1>
 
 It's still in process but i was finally able to full deploy it in AWS services.
 
@@ -8,13 +12,17 @@ The Client Front end part is hosted in S3, it's deploy as static app.
 
 For the post and comments microservices i use Lambda serverles and then set Api rest as triggers.
 
-<h2>How to use</h2>
+<h2>How to use it</h2>
 
 In the Web home page you will see a navbar in the top side (is not responsive yet), in the top right part there is button that you can click and it will show you a front where you can create your post.
 
 # !IMPORTANT
 
 Reload the page to see your post, same goes for the comments, once you submit your comment pls reload the page and you will see it.
+
+If you want to know more about the project inside of each carpet is .md document, there you can check the process and steps.
+
+# LOGBOOK
 
 `chmod 400 "bogota-devk-wo.pem"`
 
@@ -28,6 +36,8 @@ Reload the page to see your post, same goes for the comments, once you submit yo
 `rsync -avz --exclude 'node_modules' --exclude '.git' --exclude '.env' \
 -e "ssh -i ~/Downloads/.ssh/bogota-devk-wo.pem" \
 . ubuntu@ec2-54-160-168-202.compute-1.amazonaws.com:~/app`
+
+
 
 Install dependencies
 `npm i`
