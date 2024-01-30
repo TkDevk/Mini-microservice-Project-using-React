@@ -1,0 +1,51 @@
+.comment-created-container{
+    /*same commentList color?*/
+    background-color: #16275dd2;
+    width: 48svw;
+    height: 20svh;
+    display: flex;
+    padding: 5svh;
+    gap:.6rem;
+    &:hover{
+        background-color: #0d1736;
+    }
+}
+.user-icon-container{
+    /*random colors with json?*/
+    height: 10svh;
+    width: 5svw;
+    background-color: #e0d90e;    
+    padding: 1rem;
+    justify-content: center;
+}
+.user-icon{
+    font-size: 1rem;
+    align-self: center;
+}
+.user-text-info-container{
+    display: grid;
+    grid-template-columns: 10% 20% 1fr;
+    grid-template-rows: 20% 1fr;
+}
+.user-nickname{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    color:#0e5720;
+    font-weight: 500;
+    padding-inline-start: .6rem;
+}
+.user-id{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    color:#fff;
+    font-size: 1rem;
+    display: flex;
+    padding-inline-start: 2rem;
+}
+.user-comment-content{
+    padding:.6rem;
+    grid-row: 2/3;
+    grid-column: 1/4;
+    color:#fff;
+    font-size: 1rem;
+}

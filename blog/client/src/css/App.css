@@ -9,7 +9,7 @@ body{
     
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 90vh;
     overflow-x: hidden;
 }
 .blog-body-container{
@@ -20,8 +20,11 @@ body{
 }
 .body-post-list{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
+    flex: 1;
+    height: 90svh;
+    background-color: black;
 }
 .create-post-title, .post-list-title{
     color: #fff;
@@ -33,9 +36,8 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap:.2rem;
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
 
 }

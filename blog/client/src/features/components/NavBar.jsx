@@ -1,5 +1,6 @@
 import { useState } from "react"
 import PostCreate from "./PostCreate"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
     const [expand, setExpand] = useState(false)
@@ -16,7 +17,9 @@ const Navbar = () => {
                 className="open-create-container">
                     <PostCreate />
                 </section>}
+            <Link to="/">
             <h1 className="nav-title">blog</h1>
+            </Link>  
             <figure className="login-icon-container">
                 <picture className="login-icon-picture">
                     <img

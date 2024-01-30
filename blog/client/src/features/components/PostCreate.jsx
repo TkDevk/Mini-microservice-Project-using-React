@@ -12,8 +12,8 @@ const PostCreate = ()=>{
 
     const onSubmit = async (e)=>{
       e.preventDefault();
-
-      await axios.post('https://q62uaj5kmc.execute-api.us-east-1.amazonaws.com/dev/posts',{
+      //http://localhost:4001/posts/${postId}/comments
+      await axios.post('http://localhost:4000/posts',{
          title,
       });
       setTitle('');

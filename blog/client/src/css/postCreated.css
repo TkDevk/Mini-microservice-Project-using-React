@@ -1,0 +1,44 @@
+.title-post-created{
+    color: #fff;
+    font-size: 1.7rem;  
+    padding:1rem;  
+    gap:1rem;
+}
+.textbox-container{
+    padding:.7rem;
+    width: 40svw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 30svh;
+    &:hover{
+        background-color: #0d1736;
+    }
+    
+}
+.form-text-container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.text-area{
+    background-color: #0d2136;
+    padding:1rem;
+    outline-style: none;
+    border: .1rem #000 solid;
+    color:#fff;
+}
+.btn-submit-comment{
+    align-self: flex-end;
+    width: 10svw;
+    height: 5svh;
+    cursor: pointer;
+    color: #fff;
+    background-color: #0d85cf;
+}
+.container-comment-list{
+    height: 20svh;
+    display: flex;
+    flex-direction: column;
+    gap:.6rem;
+}

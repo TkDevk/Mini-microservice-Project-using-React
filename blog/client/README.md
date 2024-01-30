@@ -33,3 +33,7 @@ I need to make addtional configuration in the server, it will be a small change 
    ```js
    app.use(cors());
    ```
+
+
+
+   `https://www.freecodecamp.org/news/how-to-use-react-router-version-6/`

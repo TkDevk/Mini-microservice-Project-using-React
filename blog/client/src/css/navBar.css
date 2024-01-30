@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    min-height: 100vh;
+    min-height: 90vh;
     background-color: black;
 }
 .figure-create-container{
@@ -31,10 +31,11 @@
     padding:.6rem;
 }
 .nav-title{
-    padding: .7rem;
+    align-self: center;
     font-size: 2rem;
     font-weight: 300;
     color: #fff;
+    text-decoration: none;
 }
 .login-icon-container{
     
@@ -47,4 +48,7 @@
 }
 .login-icon-picture{
   color:#fff;
+}
+a{
+    text-decoration: none;
 }
