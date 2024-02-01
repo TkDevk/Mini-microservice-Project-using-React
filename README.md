@@ -1,6 +1,6 @@
 <h1 align="center"> Mini-microservice-Project-using-React</h1>
 <div align="center" >
- <a  href="https://d1bxuruigoicxs.cloudfront.net//">
+ <a  href="https://d1bxuruigoicxs.cloudfront.net">
         Preview Site
     </a>
 </div> 
