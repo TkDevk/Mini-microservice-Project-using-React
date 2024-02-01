@@ -3,6 +3,7 @@ import PostCreate from "./PostCreate"
 import { Link } from "react-router-dom"
 
 const Navbar = () => {
+ 
     const [expand, setExpand] = useState(false)
 
     const handleOpen =()=> {
@@ -11,7 +12,9 @@ const Navbar = () => {
         )
     }
     return (
-        <nav className="nav-bar-container">
+        <nav 
+        className="nav-bar-container"
+        >
             {expand &&
                 <section 
                 className="open-create-container">
@@ -32,6 +35,12 @@ const Navbar = () => {
             className="figure-create-container">
                 Create Post
             </article>
+            <picture 
+            className="theme-icon">
+                <img
+                src="icon-sun.svg"
+                alt="" />
+            </picture>
         </nav>
     )
 }

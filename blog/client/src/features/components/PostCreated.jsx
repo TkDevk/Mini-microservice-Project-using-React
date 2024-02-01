@@ -1,6 +1,6 @@
 import CommentCreate from "./CommentCreate"
 import CommentList from "./CommentList"
-import { usePostContext } from "../context/PostProvider"
+import { usePostContext } from "../context/posts/PostProvider"
 import PropTypes from "prop-types"
 import { useLocation } from "react-router-dom"
 

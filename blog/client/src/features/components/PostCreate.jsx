@@ -9,11 +9,12 @@ const PostCreate = ()=>{
     //The server will try to submit the form itself, the thing is i want to send it whenever i want
 
     //With the next function i will fecth the api so make the Function async
-
+    
+    //https://q62uaj5kmc.execute-api.us-east-1.amazonaws.com/dev/posts
     const onSubmit = async (e)=>{
       e.preventDefault();
-      //http://localhost:4001/posts/${postId}/comments
-      await axios.post('http://localhost:4000/posts',{
+      //http://localhost:4000/posts
+      await axios.post('https://q62uaj5kmc.execute-api.us-east-1.amazonaws.com/dev/posts',{
          title,
       });
       setTitle('');

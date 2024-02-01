@@ -5,26 +5,21 @@
     border: none;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-body{
-    
-    display: flex;
-    flex-direction: column;
-    min-height: 90vh;
-    overflow-x: hidden;
-}
 .blog-body-container{
     background-color: #084085d2;
-    width: 100%;
-    height: 100%;
-
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;;
 }
 .body-post-list{
+    top:20px;
     display: flex;
     flex-direction: row;
-    
-    flex: 1;
-    height: 90svh;
+    width: 100%;
+    height:90svh;
     background-color: black;
+    z-index: 1;
 }
 .create-post-title, .post-list-title{
     color: #fff;
@@ -36,7 +31,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    min-height: 90vh;
+    top:10svh;
     width: 100%;
     justify-content: flex-start;
 

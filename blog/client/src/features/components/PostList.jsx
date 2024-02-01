@@ -1,5 +1,5 @@
 
-import {usePostContext, useLoadingContext} from "../context/PostProvider"
+import {usePostContext, useLoadingContext} from "../context/posts/PostProvider"
 import { Link } from 'react-router-dom';
 import {PropTypes} from "prop-types"
 
@@ -16,8 +16,8 @@ const PostList = ()=>{
 
  const renderedPosts = Object.values(posts).map((post)=>{
      return ( 
-        <>
-       <Link to={`/${post.id}`}>
+        
+       <Link to={`/${post.id}`} key={post.id}> 
         <article 
         key={post.id}
         className="card-container"> 
@@ -27,7 +27,7 @@ const PostList = ()=>{
             </h2> 
         </article>    
         </Link>
-        </>  
+        
      )
  });
  //Fetch and get the posts created and put it inside the card <Link to={`/${post.id}`}/>
