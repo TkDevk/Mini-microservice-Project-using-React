@@ -16,7 +16,7 @@ For the post and comments microservices i use Lambda serverles and then set Api 
 
 In the Web home page you will see a navbar in the top side (is not responsive yet), in the top right part there is button that you can click and it will show you a front where you can create your post.
 
-# !IMPORTANT
+# IMPORTANT!
 
 Reload the page to see your post, same goes for the comments, once you submit your comment pls reload the page and you will see it.
 
