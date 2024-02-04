@@ -24,19 +24,6 @@ If you want to know more about the project inside of each carpet is .md document
 
 # LOGBOOK
 
-`chmod 400 "bogota-devk-wo.pem"`
-
-`ssh -i "bogota-devk-wo.pem" ubuntu@ec2-54-160-168-202.compute-1.amazonaws.com`
-
-`rsync -avz --exclude 'node_modules' --exclude '.git' --exclude '.env' \
--e "ssh -i ~/.ssh/your-key.pem" \
-. ubuntu@ip-address:~/app`
-
-
-`rsync -avz --exclude 'node_modules' --exclude '.git' --exclude '.env' \
--e "ssh -i ~/Downloads/.ssh/bogota-devk-wo.pem" \
-. ubuntu@ec2-54-160-168-202.compute-1.amazonaws.com:~/app`
-
 
 
 Install dependencies
