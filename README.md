@@ -6,21 +6,29 @@
 </div> 
 <h1>Welcome</h1>
 
+# IMPORTANT!
+
+Reload the page to see your post, same goes for the comments, once you submit your comment pls reload the page and you will see it.
+
+If you want to know more about the project, inside of each carpet there is a .md document, there you can check the process and steps.
+
 It's still in process but i was finally able to full deploy it in AWS services.
 
-The Client Front end part is hosted in S3, it's deploy as static app.
+The Client Front end part is hosted in S3, it's deployed as static app.
 
-For the post and comments microservices i use Lambda serverles and then set Api rest as triggers.
+For the post and comments microservices i use Lambda serverles and then set Api Gateway as triggers.
 
 <h2>How to use it</h2>
 
 In the Web home page you will see a navbar in the top side (is not responsive yet), in the top right part there is button that you can click and it will show you a front where you can create your post.
 
-# IMPORTANT!
+# Coming up:
 
-Reload the page to see your post, same goes for the comments, once you submit your comment pls reload the page and you will see it.
+Dark and light mode would be able to use for any user and user id, login per session will generate a temporary user token.
 
-If you want to know more about the project inside of each carpet is .md document, there you can check the process and steps.
+# Next features:
+
+Currently working in a Websocket service for the comments and posts as well.
 
 # LOGBOOK
 
