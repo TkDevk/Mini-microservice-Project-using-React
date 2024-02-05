@@ -30,6 +30,26 @@ Dark and light mode would be able to use for any user and user id, login per ses
 
 Currently working in a Websocket service for the comments and posts as well.
 
+
+# Why did i use microservices architecture for this project?
+
+<div align="center" >
+<h2> Monolithic server</h2>
+<img src="./Monolithic server.PNG">
+</div>
+
+An average server host all the features in its core base, since the auth token per user and the path where to send the request data, then go through the feature to finally reach the database with all the data's user that would write or read (in this project will be both), after the first `POST` request it returns to the user which `GET` the request data, so the `Monolithic` server contains the routing, the middleware and database access. If for some reason the post's feature crash down, the whole server it would be as well.
+
+
+<div align="center" >
+<h2> Microservices performance</h2>
+<img src="./Microservices.PNG">
+</div>
+
+In the other hand we have the microservices, the microservices allow keeping our app running even if for some reason one of the features crash down or just disappear, since each service gets its own database it doesn't matter if this happens, (actually it does matter xd) because my app will still be running.
+
+So the advantage is that a single microservice contains the same as monolithic contains, but per feature, in this project there are two features one is `Posts` and the other one is `Comments` both of then use a Api rest built in Express.js to POST and GET the data's user (Temporary).
+
 # LOGBOOK
 
 
