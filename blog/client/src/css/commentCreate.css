@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: .5rem;
+    width: 40svw;
 }
 
 .title-comment {
@@ -14,7 +15,7 @@
     padding: .5rem;
     outline-style: none;
     border-radius:.5rem;
-
+    font-family: 'Lato','Monserrat';
 }
 
 .comment-btn {
@@ -27,5 +28,4 @@
     color: #fff;
     background-color: #0d85cf;
     box-shadow: 0 .2rem .2rem rgb(7, 77, 105);
-
 }

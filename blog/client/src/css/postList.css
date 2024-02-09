@@ -2,17 +2,31 @@
     border-radius: .2rem;
     border: .2rem black solid;
     background-color: #0974ae;
-    padding:.7rem;
-    width: 15svw;
-    height: 25svh;
+    margin:.1rem;
+    padding:.5rem;
+    width: calc(100%/5.1);
+    height: calc(100vw/6.1);
+    position: relative;
     &:hover{
         border: .2rem #c5b414 solid;
         transition: all 1s ease-in-out;
         cursor: pointer;
     }
-
 }
 .title-card{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-end;
     color:#fff;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-family:'Monserrat', monospace;
+}
+
+#light .card-container{
+    background-color: #fff;
+}
+
+#light .title-card{
+    color:var(--nav-color);
 }

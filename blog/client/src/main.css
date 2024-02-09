@@ -5,4 +5,39 @@
 @import url('./css/commentList.css');
 @import url('./css/navBar.css');
 @import url('./css/commentContent.css');
-@import url('./css/postCreated.css')
+@import url('./css/postCreated.css');
+@import url('./css/bodyWrapper.css');
+@import url('./css/postHome.css');
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Monserrat';
+    src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/fonts/Lato-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+:root{
+   /*Light theme*/
+   --bg-color:	hsl(220, 69%, 10%);
+   --nav-color: hsl(217, 71%, 32%);
+   --btn-color: hsl(203, 88%, 43%);
+   --text-color:hsl(0, 0%, 100%);
+   /*Dark theme*/
+   --bg-dark-color:	hsl(0, 0%, 100%);
+   --nav-dark-color:  hsl(0, 0%, 100%);
+   --btn-dark-color: hsl(0, 0%, 100%);
+   --text-dark-color: hsl(216, 97%, 46%,0.5);
+}

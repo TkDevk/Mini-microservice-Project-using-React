@@ -1,51 +1,81 @@
 .comment-created-container{
     /*same commentList color?*/
-    background-color: #16275dd2;
-    width: 48svw;
-    height: 20svh;
+    background-color: #3f5e6c;
+    width: 41svw;
     display: flex;
-    padding: 5svh;
+    padding: .9rem;
     gap:.6rem;
+    position: relative;
+    overflow-wrap: break-word;
     &:hover{
-        background-color: #0d1736;
+        background-color: #2c444c;
     }
 }
+
 .user-icon-container{
-    /*random colors with json?*/
-    height: 10svh;
-    width: 5svw;
-    background-color: #e0d90e;    
-    padding: 1rem;
-    justify-content: center;
+    width: 3svw;
+    height: 5svh;
+    background-color: #159d2c;    
+    padding: .5rem;
+    position: relative;
+    
+  
 }
-.user-icon{
-    font-size: 1rem;
-    align-self: center;
+
+.user-icon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
+
 .user-text-info-container{
+    flex: 1;
+    position: relative;
     display: grid;
-    grid-template-columns: 10% 20% 1fr;
-    grid-template-rows: 20% 1fr;
+    grid-template-columns: 10% 1fr auto;
+    grid-template-rows: 20% auto;
 }
 .user-nickname{
     grid-row: 1/2;
     grid-column: 1/2;
-    color:#0e5720;
-    font-weight: 500;
-    padding-inline-start: .6rem;
+    color:#1b7d34;
+    font-weight: 600;
+    position: relative;
+    margin-top: -0.3rem;
+    font-family: 'Lato','Monserrat';
+    font-size: .8em;
 }
 .user-id{
     grid-row: 1/2;
     grid-column: 2/3;
     color:#fff;
     font-size: 1rem;
+    position: relative;
     display: flex;
-    padding-inline-start: 2rem;
+    align-self: flex-start;
+    text-transform: uppercase;
+    font-size: .6em;
 }
+
 .user-comment-content{
-    padding:.6rem;
+    position: relative;
     grid-row: 2/3;
     grid-column: 1/4;
+    padding-top: .5rem;
+    font-weight: 500;
     color:white;
-    font-size: 1rem;
+    font-size: .9em;
+    font-family: 'Lato','Monserrat';
+    display: inline-block;
+}
+
+#light .comment-created-container{
+    background-color: #e4e5f1;
+    &:hover{
+        background-color:#9dc1cb;
+    }
+}
+
+#light .user-comment-content, #light .user-id{
+    color:#000;
 }

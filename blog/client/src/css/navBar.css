@@ -3,42 +3,66 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    min-height: 90vh;
+    position: fixed;
+    min-height: 100vh;
 }
 .figure-create-container{
     width: 8svw;
-    height: 7svh;
+    height: 5svh;
     border-radius: .2rem;
-    font-size: .8rem;
     color:#fff;
-    padding:.7rem;
-    background-color: #045ee6;
+    padding:.2rem;
+    background-color:var(--btn-color);
     display: flex;
-    align-items: center;
+    align-self: center;
     justify-content: center;
+    z-index: 5;
     &:hover{
         cursor: pointer;
     }
 }
 .nav-bar-container{
-    height: 10svh;
+    height: 8svh;
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    background-color: #084085d2;;
+    background-color:#273342
+    ;
     padding:.6rem;
-    position: sticky;
+    position: fixed;
     top:0;
-    z-index: 2;
+    z-index: 6;
+    flex-grow: 1;
+    transition: all 0.5s ease;
 }
+
+#ligth .nav-bar-container{
+    background:#fff;
+    border-bottom: .2rem #6493c5 solid;
+}
+
+
 .nav-title{
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
     font-weight: 300;
     color: #fff;
     text-decoration: none;
 }
+
+.btn-create-post-title{
+    padding:.5rem;
+    align-self: center;
+    font-size:.58em;
+}
+
+#light .nav-title{
+    color:var(--nav-color);
+}
+
 .login-icon-container{
     
     align-self: center;
@@ -55,6 +79,7 @@
 .theme-icon{
     width: 5svw;
     align-self: center;
+    padding:1rem;
     &:hover{
         cursor: pointer;
     }
@@ -63,4 +88,18 @@
 a{
     text-decoration: none;
     z-index: 1;
+    display: flex;
+}
+.icon-close-pop-up{
+    display: flex;
+    width:2.3rem;
+    height: 2.3rem;
+    z-index: 5;
+    background-color:var(--nav-color);
+    border-radius: 4rem;
+    &:hover{
+        cursor: pointer;
+        background-color:  #c82727;
+        transition: all .3s ease-in-out;
+    }
 }
