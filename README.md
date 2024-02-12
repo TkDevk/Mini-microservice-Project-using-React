@@ -6,7 +6,7 @@
 </div> 
 <h1>Welcome</h1>
 
-# IMPORTANT!
+# IMPORTANT !
 
 Reload the page to see your post, same goes for the comments, once you submit your comment pls reload the page and you will see it.
 
